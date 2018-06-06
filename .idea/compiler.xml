@@ -8,13 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="feign" />
         <module name="microservice" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="boot" target="1.8" />
-      <module name="eureka" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
